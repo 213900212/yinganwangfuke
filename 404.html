@@ -2,21 +2,25 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="迪威小小安全网 - 中国领先的消防救援、警用装备、森林防火、防汛抗旱应急安全装备采购招标信息平台" />
-    <meta name="keywords" content="迪威小小安全网,消防装备,警用装备,森林防火,防汛抗旱,应急救援,招标中标,采购信息" />
-    <title>迪威小小安全网 - 应急安全装备采购招标信息平台 | diweif.com</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Oswald:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/assets/index-B-1jZ_po.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BImk8y1i.css">
+    <title>迪威小小安全网 - 应急安全装备采购招标信息平台</title>
+    <script>
+      // GitHub Pages SPA 路由回退
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"></div>
+    <script type="module" crossorigin src="./assets/index-DvEXpfoW.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BImk8y1i.css">
   </body>
 </html>
